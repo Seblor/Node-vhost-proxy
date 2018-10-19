@@ -2,6 +2,15 @@
 
 This project is a Proof of Concept for a virtual host proxy made in Node.
 
+# Installation guide
+
+_(Note that this project is not to be used in a production environment)_
+
+Clone this repo, and simple run `npm i` to install all the dependencies. Then run the command `npm start` to start the server.
+
+The file `vhosts.json` contains the virtual hosts, it has to be changed.  
+The file `config.json` contains de configuration settings. Currently only the contact address is customizable.
+
 # How does it works ?
 
 When the server receives a request, it checks the list of hosts located in the `vhosts.json` file and then redirects the request to the associated port on the local host.
