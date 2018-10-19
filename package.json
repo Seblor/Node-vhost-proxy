@@ -1,0 +1,15 @@
+{
+  "name": "vhost_proxy",
+  "version": "1.0.0",
+  "description": "Node virtual host proxy",
+  "main": "vhost-proxy.js",
+  "scripts": {
+    "start": "node vhost-proxy.js"
+  },
+  "author": "Seblor",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0",
+    "http-proxy": "1.16.2"
+  }
+}
